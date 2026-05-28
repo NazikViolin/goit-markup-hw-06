@@ -302,3 +302,17 @@
 .button-modal:focus {
     background-color: #404bbf;
 }
+
+.modal {
+    width: 288px;
+    height: 640px;
+    padding: 72px 16px 24px;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 408px;
+        height: 584px;
+        padding: 72px 24px 24px;
+    }
+}

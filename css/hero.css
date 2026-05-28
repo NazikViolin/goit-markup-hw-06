@@ -14,9 +14,7 @@
     text-align: center;
 }*/
 
-/* = = = M O B I L E = = = */
-
-
+/* === MOBILE === */
 .hero-section {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -38,55 +36,6 @@
     }
 }
 
-/* = = = T A B L E T = = = */
-
-@media (min-width: 768px) {
-    .hero-section {
-        background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url("../images/hero-tab1x.jpg");
-        padding: 112px 0;
-    }
-}
-
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-    .hero-section {
-        background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url("../images/hero-tab2x.jpg");
-    }
-}
-
-/* = = = D E S K T O P = = = */
-
-@media (min-width: 1158px) {
-    .hero-section {
-        background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url("../images/hero-desk1x.jpg");
-        padding: 188px 0;
-    }
-}
-
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
-    .hero-section {
-        background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url("../images/hero-desk2x.jpg");
-    }
-}
-
-/*.page-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #fff;
-    max-width: 496px;
-    margin: 0 auto 48px;
-}*/
-
-/* = = = M O B I L E = = = */
 .page-title {
     font-weight: 700;
     font-size: 36px;
@@ -95,16 +44,6 @@
     color: #fff;
     max-width: 216px;
     margin: 0 auto 72px;
-}
-
-/* = = = D E S K = = = */
-@media (min-width: 1158px) {
-    .page-title {
-        font-size: 56px;
-        line-height: 1.07;
-        max-width: 496px;
-        margin: 0 auto 48px;
-    }
 }
 
 .page-button {
@@ -122,10 +61,59 @@
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-button:hover,
 .page-button:focus {
     background-color: #404bbf;
+}
+
+/* === TABLET === */
+@media (min-width: 768px) {
+    .hero-section {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-tab1x.jpg");
+        padding: 112px 0;
+    }
+
+    .page-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin: 0 auto 36px;
+        letter-spacing: 0.02em;
+        margin-right: 136px;
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-tab2x.jpg");
+    }
+}
+
+/* === DESKTOP === */
+@media (min-width: 1158px) {
+    .hero-section {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-desk1x.jpg");
+        padding: 188px 0;
+    }
+
+    .page-title {
+        margin: 0 auto 48px;
+    }
+}
+
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-desk2x.jpg");
+    }
 }

@@ -314,6 +314,17 @@
     }
 }
 
+@media (min-width: 768px) {
+    .social {
+        align-items: flex-start;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+    }
+}
+
+
 /* = = = D E S K T O P = = = */
 @media (min-width: 1158px) {
     .footer-page {

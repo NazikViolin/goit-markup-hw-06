@@ -57,6 +57,10 @@
     display: none;
 }
 
+.icon-feature-svg {
+    fill: #2e2f42;
+}
+
 .feature-title {
     font-weight: 700;
     font-size: 36px;
@@ -85,8 +89,8 @@
     }
 
     .menu-item {
-        /*width: calc((100% - 24px) / 2);*/
-        max-width: 288px;
+        width: calc((100% - 24px) / 2);
+        /*max-width: 288px;*/
     }
 
     .feature-title {
