@@ -1,20 +1,5 @@
-/*.hero-section {
-    background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("../images/peopleOff.jpg");
+/* = = = M O B I L E = = = */
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 188px 0;
-    text-align: center;
-}*/
-
-/* === MOBILE === */
 .hero-section {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -82,9 +67,8 @@
         font-size: 56px;
         line-height: 1.07;
         max-width: 496px;
-        margin: 0 auto 36px;
         letter-spacing: 0.02em;
-        margin-right: 136px;
+        margin: 0 auto 36px;
     }
 }
 
