@@ -7,12 +7,12 @@
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.container {
+/*.container {
     width: 100%;
     max-width: 320px;
     padding: 0 16px;
     margin: 0 auto;
-}
+}*/
 
 .page-header .container {
     display: flex;
@@ -84,7 +84,8 @@
     color: #404bbf;
 }
 
-/* === MOBILE === */
+/* = = = M O B I L E = = = */
+
 .nav-list,
 .contacts {
     display: none;
@@ -97,30 +98,32 @@
     padding: 5px 4px;
     cursor: pointer;
     line-height: 0;
-    margin-left: 149px;
+    margin-left: auto;
+    /*margin-left: 149px;*/
 }
 
-/* === TABLET === */
+/* = = = T A B L E T = = = */
+
 @media (min-width: 768px) {
     .burger-btn {
         display: none;
     }
 
-    .container {
+    /*.container {
         max-width: 768px;
-    }
+    }*/
 
     .nav-list {
         display: flex;
         gap: 40px;
-        margin-left: 120px;
-        margin-right: 129px;
+        /*margin-left: 120px;
+        margin-right: 129px;*/
     }
 
     .header-nav {
         display: flex;
         align-items: center;
-        /*gap: 120px;*/
+        gap: 120px;
     }
 
     .nav-link {
@@ -145,13 +148,9 @@
     }
 }
 
-/* === DESKTOP === */
-@media (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
+/* = = = D E S K T O P = = = */
 
+@media (min-width: 1158px) {
     .header-nav {
         gap: 76px;
     }
@@ -169,9 +168,9 @@
     }
 }
 
-@media (min-width: 1158px) {
+/*@media (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding: 0 15px;
     }
-}
+}*/
