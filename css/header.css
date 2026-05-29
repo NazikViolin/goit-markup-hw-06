@@ -7,13 +7,6 @@
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/*.container {
-    width: 100%;
-    max-width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-}*/
-
 .page-header .container {
     display: flex;
     align-items: center;
@@ -109,10 +102,6 @@
         display: none;
     }
 
-    /*.container {
-        max-width: 768px;
-    }*/
-
     .nav-list {
         display: flex;
         gap: 40px;
@@ -123,7 +112,7 @@
     .header-nav {
         display: flex;
         align-items: center;
-        gap: 120px;
+        margin-left: 120px;
     }
 
     .nav-link {
@@ -152,7 +141,7 @@
 
 @media (min-width: 1158px) {
     .header-nav {
-        gap: 76px;
+        margin-left: 76px;
     }
 
     .contacts-list {
