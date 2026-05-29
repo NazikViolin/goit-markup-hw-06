@@ -115,13 +115,11 @@
 }
 
 @media (min-width: 768px) {
-    .mobile-menu {
-        visibility: hidden;
-        pointer-events: none;
-    }
 
+    .mobile-menu,
     .mobile-menu.is-open {
-        visibility: visible;
+        opacity: 0;
+        visibility: hidden;
         pointer-events: none;
     }
 }
